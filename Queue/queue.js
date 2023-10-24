@@ -11,7 +11,6 @@ class Queue {
         this.tail++;
         console.log(item + " Add in Queue");
         console.log(this.tail + " Tail");
-
     }
 
     deQueue() {
@@ -47,4 +46,3 @@ obj.deQueue();
 console.log("After Removing");
 
 obj.displayQueue();
-
